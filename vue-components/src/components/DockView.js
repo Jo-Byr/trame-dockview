@@ -202,6 +202,19 @@ export default {
       api.getPanel(panelId)?.api?.setActive();
     }
 
+    function setPanelTitle(panelId, title) {
+      api.getPanel(panelId)?.api?.setTitle(title);
+    }
+
+    function movePanelTo(panelId, position) {
+      const panel = api.getPanel(panelId);
+
+      panel?.api?.moveTo({
+        position,
+        group: panel.api._group,
+      });
+    }
+
     return {
       theme,
       onReady,
@@ -209,6 +222,8 @@ export default {
       bind,
       removePanel,
       activePanel,
+      setPanelTitle,
+      movePanelTo,
     };
   },
   template:

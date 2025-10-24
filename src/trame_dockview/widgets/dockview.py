@@ -147,3 +147,9 @@ class DockView(HtmlElement):
                 Unique identifier for that panel
         """
         self.server.js_call(self.__ref, "activePanel", id)
+
+    def set_panel_title(self, id, title):
+        self.server.js_call(self.__ref, "setPanelTitle", id, title)
+
+    def move_panel_to(self, id, position):
+        self.server.js_call(self.__ref, "movePanelTo", id, position)

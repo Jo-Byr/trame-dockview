@@ -13,6 +13,7 @@
 from trame.app import TrameApp
 from trame.ui.html import DivLayout
 from trame.ui.vuetify3 import SinglePageLayout
+
 from trame.widgets import dockview, html
 from trame.widgets import vtk as vtk_widgets
 from trame.widgets import vuetify3 as v3

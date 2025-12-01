@@ -2,6 +2,24 @@
 
 <!-- version list -->
 
+## v1.3.0 (2025-12-01)
+
+### Bug Fixes
+
+- Add +x to examples/demo.py + update ruff for uv run shebang
+  ([`a22de1d`](https://github.com/Kitware/trame-dockview/commit/a22de1dfd5245b4045e337af02340434ac830af5))
+
+### Documentation
+
+- Update demo.py
+  ([`0ed9ee1`](https://github.com/Kitware/trame-dockview/commit/0ed9ee17c2d00c1a9f12ac93b937fb26c8d69060))
+
+### Features
+
+- **panel**: Add setTitle and moveTo for existing panels
+  ([`1cbafb4`](https://github.com/Kitware/trame-dockview/commit/1cbafb41c200fe03982a295c736c5a98b815b064))
+
+
 ## v1.2.2 (2025-06-26)
 
 ### Bug Fixes

@@ -2,6 +2,18 @@
 
 <!-- version list -->
 
+## v2.0.0 (2026-08-23)
+
+### Features
+
+- **dockview**: Upgrade to v7
+  ([`0daf611`](https://github.com/Kitware/trame-dockview/commit/0daf61103ae4caba275c0f6e21d41b60bc0c0e7a))
+
+### Breaking Changes
+
+- **dockview**: Remove the Replit theme, which is no longer provided by Dockview.
+
+
 ## v1.4.0 (2026-07-15)
 
 ### Bug Fixes

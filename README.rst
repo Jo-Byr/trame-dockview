@@ -1,4 +1,4 @@
-.. |pypi_download| image:: https://img.shields.io/pypi/dm/trame-dockview
+.. |pypi_download| image:: https://kitware.github.io/trame/downloads/trame-dockview.svg
 
 trame-dockview: Docking layout system for trame |pypi_download|
 ===========================================================================
